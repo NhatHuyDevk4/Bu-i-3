@@ -1,0 +1,34 @@
+.country {
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  min-width: 200px;
+
+  &__item {
+    border-bottom: 1px solid orange;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__text {
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 6 10px;
+  }
+
+  &__sub{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+
+  &__sub-item {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 10px;
+  }
+}
