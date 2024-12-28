@@ -1,6 +1,7 @@
 import Login from './components/Login/Login'
 import './App.css'
 import Menu from './components/Menu/Menu'
+import ProductList from './components/ProductList/ProductList'
 
 function App() {
  
@@ -8,7 +9,9 @@ function App() {
   return (
     <>
        {/* <Login /> */}
-       <Menu />
+       {/* <Menu /> */}
+
+       <ProductList />
     </>
   )
 }
